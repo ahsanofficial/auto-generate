@@ -4,6 +4,7 @@ const { connection } = require("./config/db")
 const { router } = require("./routes/routes")
 require("dotenv").config()
 
+
 const app = express();
 const PORT = process.env.PORT || 8080
 
